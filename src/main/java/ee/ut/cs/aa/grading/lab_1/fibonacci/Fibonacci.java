@@ -1,22 +1,17 @@
 package ee.ut.cs.aa.grading.lab_1.fibonacci;
 
 /**
- * Interface for calculating  @see <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci sequence</a>.
- *
+ * Interface for a calculator of numbers from the @see <a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci sequence</a>.
  */
 public interface Fibonacci {
 
-
     /**
+     * Find the n-th number of the Fibonacci sequence (0, 1, 1, 2, ...).
      *
-     * Calculates numbers from the Fibonacci sequence.
+     * Indexing is 0-based.
      *
-     * The sequence begins with 0,1,1,2,...
-     *
-     * Indexing is 0 based.
-     *
-     * @param n index of the number from the Fibonacci sequence to be calculated
-     * @return the n-th Fibonacci number
+     * @param n index of the Fibonacci number to be calculated
+     * @return n-th Fibonacci number
      */
     int fibonacci(int n);
 }

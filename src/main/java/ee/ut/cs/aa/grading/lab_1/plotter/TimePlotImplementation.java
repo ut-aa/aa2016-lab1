@@ -27,12 +27,11 @@ public class TimePlotImplementation extends ApplicationFrame implements TimePlot
 		         true,true,false);
 		
 		ChartPanel chartPanel = new ChartPanel(lineChart);
-	    chartPanel.setPreferredSize( new java.awt.Dimension(560 ,367));
+	    chartPanel.setPreferredSize(new java.awt.Dimension(560 ,367));
 	    setContentPane(chartPanel);
 
 		pack();
 		RefineryUtilities.centerFrameOnScreen(this);
 		setVisible(true);
 	}
-
 }
